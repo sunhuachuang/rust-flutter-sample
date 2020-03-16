@@ -1,0 +1,13 @@
+[package]
+name = "rust_demo"
+version = "0.1.0"
+authors = ["sun"]
+edition = "2018"
+
+[lib]
+name = "rust_demo"
+crate-type = ["dylib", "staticlib"]
+
+[dependencies]
+async-std = "1"
+
